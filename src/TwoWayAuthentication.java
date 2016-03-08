@@ -26,12 +26,12 @@ public class TwoWayAuthentication {
 		
 		try {  
         	 String baseUrl = "https://go-west-young-man.compute.amazonaws.com";
-        	 String midb = baseUrl + "/i3/midb/adal/v1/rest/currentServer";
+        	 String midb = baseUrl + "/i4/your/adal/v1/rest/currentServer";
         	
              URL url = new URL(midb);  
              HttpsURLConnection conn = (HttpsURLConnection)url.openConnection();  
    
-             File pKeyFile = new File("C:\\temp\\osgi.p12");
+             File pKeyFile = new File("C:\\temp\\sgi.p12");
              String pKeyPassword = "ask-dave";
              KeyManagerFactory keyManagerFactory = KeyManagerFactory.getInstance("SunX509");
              
