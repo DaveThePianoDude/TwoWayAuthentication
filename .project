@@ -14,4 +14,16 @@
 	<natures>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>CocoBase</name>
+			<type>2</type>
+			<location>C:/Users/HollandD/GMS/dependencies/CocoBase</location>
+		</link>
+		<link>
+			<name>navapi</name>
+			<type>2</type>
+			<location>C:/Users/HollandD/GMS/support/directory/apache-tomcat-7.0.27/lib/cocobase/thought/CocoBase/navapi</location>
+		</link>
+	</linkedResources>
 </projectDescription>
