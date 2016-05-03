@@ -14,4 +14,9 @@ any time next week.  What needs to happen is an update to one of the configurati
 setting System.Environment variables, really.
 
 
+05/03/2016
+
+What's odd is that I removed all of the stuff that appeared to set up the 
+authentication, and it still worked.  All I needed was a username and
+password ??!
 

@@ -1,0 +1,27 @@
+Manifest-Version: 1.0
+Build-Timestamp: Thu, 20 Nov 2014 22:32:21 -0600
+Implementation-Title: WildFly: EJB and JMS client combined jar
+Implementation-Version: 8.2.0.Final
+Os-Version: 10.10
+Built-By: jason
+Specification-Vendor: JBoss by Red Hat
+Created-By: Apache Maven 3.1.1
+Os-Name: Mac OS X
+Implementation-URL: http://www.jboss.org/wildfly-parent/client/wildfly
+ -client-all
+Java-Vendor: Oracle Corporation
+Implementation-Vendor: JBoss by Red Hat
+Scm-Revision: cad226d05a0ac1edaca2d36f805abf70c1c44852
+JBossAS-Release-Version: 8.2.0.Final
+Implementation-Vendor-Id: org.wildfly
+Scm-Url: https://github.com/wildfly/wildfly
+Build-Jdk: 1.7.0_67
+Java-Version: 1.7.0_67
+Scm-Connection: scm:git:git@github.com:wildfly/wildfly.git/client/wild
+ fly-client-all
+Os-Arch: x86_64
+Specification-Title: WildFly: EJB and JMS client combined jar
+Specification-Version: 8.2.0.Final
+JBossAS-Release-Codename: Tweek
+Archiver-Version: Plexus Archiver
+
