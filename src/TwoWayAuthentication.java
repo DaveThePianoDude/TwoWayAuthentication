@@ -55,10 +55,13 @@ public class TwoWayAuthentication {
 	    	
 	    	//System.out.println(arr.toString());
 	    	 	
-            System.setProperty("javax.net.ssl.keyStorePassword","synCRO69!");
+            System.setProperty("javax.net.ssl.keyStore","C:/Progra~1/Java/jdk1.8.0_45/jre/lib/security/osgi.p12");                  
+            System.setProperty("javax.net.ssl.keyStorePassword","midbstore");
+            System.setProperty("javax.net.ssl.keyStoreType", "pkcs12");
+            
             System.setProperty("javax.net.ssl.trustStore","C:/Progra~1/Java/jdk1.8.0_45/jre/lib/security/cacerts");
-            System.setProperty("javax.net.ssl.keyStore","C:/Progra~1/Java/jdk1.8.0_45/jre/lib/security/clientkeystore");       
             System.setProperty("javax.net.ssl.trustStorePassword","changeit");
+            
             System.setProperty("javax.net.debug", "true");
             System.setProperty("https.protocols", "TLSv3");
             System.setProperty("javax.net.debug", "ssl");
